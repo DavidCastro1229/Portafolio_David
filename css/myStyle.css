@@ -1,0 +1,27 @@
+.TextResaltado{
+    color:white;
+    text-shadow: 5px 5px 5px black;
+}
+.Fondoblur{
+    position: absolute;
+    backdrop-filter: blur(4px);
+    width:100%;
+    height: 100%;
+}
+.index3{
+    position: relative;
+    z-index:3;
+}
+.gbBlack{
+    background-color: #111;
+}
+.service-icon {
+    background-color: #fff;
+    color: #1D809F;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 6.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
+}
