@@ -18,10 +18,20 @@
 .service-icon {
     background-color: #fff;
     color: #1D809F;
-    height: 7rem;
-    width: 7rem;
+    height: 5rem;
+    width: 5rem;
     display: block;
-    line-height: 6.5rem;
+    line-height: 4.5rem;
     font-size: 2.25rem;
     box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
+}
+@media screen and (max-width:600px) {
+    #portfolio aside{
+        height: 20rem;    
+    }
+    
+}
+.footer a{
+    color: white;
+    background-color: black;
 }

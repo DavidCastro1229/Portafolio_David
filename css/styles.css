@@ -11430,12 +11430,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.callout h2, .callout .h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: block;
-  max-width: 30rem;
-}
 
 footer.footer {
   padding-top: 5rem;
@@ -11518,7 +11512,9 @@ footer.footer .social-link:hover {
 }
 .portfolio-item .caption .caption-content {
   color: #fff;
-  margin: auto 2rem 2rem;
+  margin: 5px;
+  display: grid;
+  align-items: center;
 }
 .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
   font-size: 0.8rem;
@@ -11552,15 +11548,4 @@ footer.footer .social-link:hover {
     display: block !important;
   }
   
-}
-
-.service-icon {
-  background-color: #fff;
-  color: #1D809F;
-  height: 7rem;
-  width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
